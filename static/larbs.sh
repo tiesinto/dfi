@@ -1,4 +1,4 @@
-#!/bin/sh
+/#!/bin/sh
 
 # Luke's Auto Rice Bootstrapping Script (LARBS)
 # by Luke Smith <luke@lukesmith.xyz>
@@ -212,21 +212,18 @@ makeuserjs(){
 	chown "$name:wheel" "$arkenfox" "$userjs"
 	# Install the updating script.
 	mkdir -p /usr/local/lib /etc/pacman.d/hooks
-	cp "/home/$name/.local/bin/arkenfox-auto-update" /usr/local/lib/
-	chown root:root /usr/local/lib/arkenfox-auto-update
-	chmod 755 /usr/local/lib/arkenfox-auto-update
+	cp "/home/$name/.local/bin/qutebrowser-auto-delete" /usr/local/lib/
+	chown root:root /usr/local/lib/qutebrowser-auto-delete
+	chmod 755 /usr/local/lib/qutebrowser-auto-delete
 	# Trigger the update when needed via a pacman hook.
 	echo "[Trigger]
 Operation = Upgrade
 Type = Package
-Target = firefox
-Target = librewolf
-Target = librewolf-bin
+Target = qutebrowser
 [Action]
-Description=Update Arkenfox user.js
+Description=Update qutebrowser to auto-delete history, cookies and cache on startup
 When=PostTransaction
-Depends=arkenfox-user.js
-Exec=/usr/local/lib/arkenfox-auto-update" > /etc/pacman.d/hooks/arkenfox.hook
+Exec=/usr/local/lib/qutebrowser-auto-delete" > /etc/pacman.d/hooks/arkenfox.hook
 }
 
 installffaddons(){
