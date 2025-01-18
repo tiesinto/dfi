@@ -47,7 +47,7 @@ Here are the main programs, all with extra information here:
 - [st](/st) -- the terminal
 - [dwmblocks](/dwmblocks) -- statusbar
 - [zsh](zsh) -- the shell
-- [Librewolf](librewolf) with the Arkenfox.js -- browser
+- [qutebrowser](qutebrowser) -- browser
 - [lf](/lf) -- file manager
 - [neomutt](/neomutt) -- email
 - [abook](/abook) -- extensible address book
