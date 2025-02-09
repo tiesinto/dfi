@@ -6,7 +6,7 @@ date: 2023-01-17T11:39:29-05:00
 mpv is a video-player so simple, it really just shows the video.
 It is controlled by the keyboard and only shows even the progress bar and other interfaces when needed.
 
-It is also used in LARBS to play single audio files if [mpd](/mpd) is not used.
+It is also used in DFI to play single audio files if [mpd](/mpd) is not used.
 
 
 ## Documentation
@@ -38,7 +38,7 @@ These are custom bindings for ease:
 ## Other
 
 - If you download films, I recommend installing the program `subdl`, which you can run on a movie file and it will automatically check online for subtitle files. Give it the `-i` option to choose from the closest matches if the first result is slightly off.
-- The LARBS binding <kbd>super + shift + P</kbd> will not only pause you music played in `mpd`, but also all audio/video instances of `mpv`.
+- The DFI binding <kbd>super + shift + P</kbd> will not only pause you music played in `mpd`, but also all audio/video instances of `mpv`.
 - Press <kbd>super + F11</kbd> to see your webcam. This uses an instance of `mpv` as well.
 
 GPLv2
