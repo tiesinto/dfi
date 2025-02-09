@@ -31,7 +31,7 @@ Yet for newfriends who HECKIN' LOVE GNU/LINUX, for what ever reason, they do the
 
 This is only possible because even of those people use use GNU/Linux, even in a fancy tiling window manager, so many of them are still struggling to figure things out, so a couple htop windows and a silly file manager open and the brain degrades to a lower, confusion-induced operating level which makes it fawn at the mystery of it.
 
-I mean really---obviously I think tiling window managers are useful, that's what LARBS is about, but when you are *actually working on something* do you *ever* have more than three windows tiled on the same workspace at one time?
+I mean really---obviously I think tiling window managers are useful, that's what DFI is about, but when you are *actually working on something* do you *ever* have more than three windows tiled on the same workspace at one time?
 
 Seriously, for most things, I have one thing per workspace unless another prompt is strictly visually necessary. Three or *maybe* four is definitely the maximum.
 
