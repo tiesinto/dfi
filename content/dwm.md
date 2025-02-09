@@ -9,8 +9,6 @@ dwm (the dynamic window manager) is the backbones of DFI and its graphical envir
 
 DFI has built-in documentation for dwm, which can be obtain by pressing `super + F1` or by clicking the small ❓ in the top right corner.
 
-If you're viewing this online, [click here to see the pdf](/larbs-dwm.pdf) which is a full guide to dwm.
-
 That should be your guide for upping your dwm power-level, but here are some generalities:
 
 - dwm automatically tiles windows by the pattern of your choosing, and most active windows are given visual preference. You can turn off tiling if you need, or float individual windows.
