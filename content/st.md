@@ -35,6 +35,6 @@ If you don't like it, remove the `bindkey -v` line from the [zsh](/zsh) configur
 
 ## Source Code
 
-- [st for LARBS](https://github.com/lukesmithxyz/st)
+- [st for DFI using Luke's build](https://github.com/lukesmithxyz/st)
 - [original st at suckless's website](https://st.suckless.org)
 - MIT License
