@@ -3,7 +3,7 @@ title: "lf"
 date: 2022-12-21T17:07:04-05:00
 ---
 
-lf is the file manager used in LARBS.
+lf is the file manager used in DFI.
 It was original inspired by the program ranger, but unlike ranger, lf is written in Go instead of Python, so is significantly snappier and adds better features for interaction between different lf instances.
 
 {{< img src="/pix/lf.png" class=normal caption="Note that lf uses ueberzug to produce previews of images, or here, a .pdf." >}}
