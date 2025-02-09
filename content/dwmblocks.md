@@ -63,6 +63,6 @@ kill -44 $(pidof dwmblocks)
 
 ## Source code
 
-- [The build for LARBS](https://github.com/lukesmithxyz/dwmblocks)
+- [The build for DFI](https://github.com/tiesinto/dwmblocks)
 - [the original dwmblocks](https://github.com/torrinfail/dwmblocks)
 - ISC License.
