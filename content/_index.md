@@ -1,11 +1,11 @@
 ---
-title: "LARBS"
+title: "DFI"
 layout: single
 ---
 
 {{< img src="/pix/larbs.png" class=normal >}}
 
-LARBS is an efficient shell script that will install a fully-featured tiling window manager-based system on any Arch or [Artix](https://artixlinux.org) Linux-based system, without any of the routine of manual post-install processes and configuration.
+DFI is an efficient shell script that will install a fully-featured tiling window manager-based system on any Arch or [Artix](https://artixlinux.org) Linux-based system, without any of the routine of manual post-install processes and configuration.
 
 ## Two types of LARBS users
 
@@ -25,19 +25,19 @@ Instead, you realize how easy it is to set things up automatically yourself.
 On a fresh installation of Arch Linux or Artix Linux, run the following:
 
 ```fish
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://github.com/tiesinto/dfi/blob/master/static/dfi.sh
 sh larbs.sh
 ```
 
-LARBS will then guide you through installation, which is typically relatively snappy. On my slow internet, it takes around 10 minutes.
+DFI will then guide you through installation, which is typically relatively snappy. On Luke's slow internet, it takes around 10 minutes.
 
-Note that the LARBS scripts will not partition any drives or wipe anything, **but** when it deploys the dotfiles, it will overwrite any preexisting files: e.g. the LARBS bashrc will replace your old bashrc, etc. To avoid even this risk, you can tell LARBS to install for a new username and nothing will be overwritten.
+Note that the DFI scripts will not partition any drives or wipe anything, **but** when it deploys the dotfiles, it will overwrite any preexisting files: e.g. the DFI bashrc will replace your old bashrc, etc. To avoid even this risk, you can tell LARBS to install for a new username and nothing will be overwritten.
 
 ## No un-features
 
 - No proprietary software or spyware.
 - No snaps or flatpaks or Mac-lite garbage. GNU/Linux the way it's supposed to be.
-- No branding cringe. Once you run LARBS, you have **your own** system, not mine!
+- No branding cringe. Once you run DFI, you have **your own** system, not mine!
 
 ## Programs
 
@@ -61,7 +61,7 @@ Here are the main programs, all with extra information here:
 
 You can figure out about the system in a lot of different ways:
 
-- LARBS has a built-in readme document and list of all the many efficient keybindings that you can read [here](/larbs-dwm.pdf). By pressing <kbd>super + F1</kbd> at any time while in the system you can read this document.
-- The many illustrative videos on [Luke's YouTube channel](https://youtube.com/lukesmithxyz), some of which are easily watchable in LARBS by pressing <kbd>super + F2</kbd>.
+- DFI has a built-in readme document and list of all the many efficient keybindings that you can read by pressing <kbd>super + F1</kbd> at any time while in the system you can read this document.
+- The many illustrative videos on [Luke's YouTube channel](https://youtube.com/lukesmithxyz), some of which are easily watchable in DFI by pressing <kbd>super + F2</kbd>.
 - The documentation on the <a href="https://github.com/lukesmithxyz/voidrice">Github</a> page.
 - By just installing it and diving in!
