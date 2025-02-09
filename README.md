@@ -35,7 +35,7 @@ from how Luke would've done things:
 ## Customization
 
 By default, DFI uses the programs [here in progs.csv](static/progs.csv) and installs
-[my dotfiles repo (voidrice) here](https://github.com/tiesinto/boydrice),
+[my dotfiles repo (boydrice) here](https://github.com/tiesinto/boydrice),
 but you can easily change this by either modifying the default variables at the
 beginning of the script or giving the script one of these options:
 
