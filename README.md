@@ -5,17 +5,23 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO larbs.xyz/larbs.sh
+curl -LO https://github.com/tiesinto/dfi/blob/master/static/larbs.sh
 sh larbs.sh
 ```
 
 ## Why this fork?
 
-DFI is a script that autoinstalls and autoconfigures my fully-functioning
-and minimal terminal-and-vim-based Arch Linux environment.
+DFI is a script that autoinstalls and autoconfigures Luke Smith's minimal terminal-and-vim-based Arch Linux environment with some minor changes.
 
 DFI should be run on a fresh install of Arch or Artix Linux, and provides you
 with a fully configured diving-board for work or more customization.
+
+ne of these options:
+
+- `-r`: custom dotfiles repository (URL)
+- `-p`: custom programs list/dependencies (local file or URL)
+- `-a`: a custom AUR helper (must be able to install with `-S` unless you
+  change the relevant line in the script
 
 ## Customization
 
