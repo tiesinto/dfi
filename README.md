@@ -30,7 +30,7 @@ from how Luke would've done things:
   keyboard as well as optimizations for the German layout on an
   American keyboard
 - Installs transmission-remote-cli by default, along with numerous other
-  referenced programs in LARBS.
+  referenced programs in LARBS
 
 ## Customization
 
