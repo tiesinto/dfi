@@ -5,7 +5,7 @@
 On an Arch-based distribution as root, run the following:
 
 ```
-curl -LO https://github.com/tiesinto/dfi/blob/master/static/larbs.sh
+curl -LO https://github.com/tiesinto/dfi/blob/master/static/dfi.sh
 sh larbs.sh
 ```
 
