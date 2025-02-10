@@ -1,5 +1,5 @@
 ---
-title: "Librewolf"
+title: "qutebrowser"
 date: 2023-01-19T08:51:04-05:00
 ---
 
