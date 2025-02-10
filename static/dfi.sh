@@ -19,6 +19,7 @@ https://lindypress.net/rss
 https://landchad.net/rss.xml
 https://artixlinux.org/feed.php \"tech\"
 https://www.archlinux.org/feeds/news/ \"tech\"
+https://github.com/lukesmith/voidrice/commits/master.atom \"~LARBS dotfiles\"
 https://github.com/tiesinto/boydrice/commits/master.atom \"~dfi dotfiles\""
 
 ### FUNCTIONS ###
