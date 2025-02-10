@@ -299,6 +299,10 @@ installationloop
 putgitrepo "$dotfilesrepo" "/home/$name" "$repobranch"
 rm -rf "/home/$name/.git/" "/home/$name/README.md" "/home/$name/LICENSE" "/home/$name/boyd.webp"
 
+# Create basic home folders using my shortcuts. If one of these folders are
+# changed, the shortcut needs to be changed and vice versa.
+mkdir -p "/home/$name/dl/tor/" "/home/$name/dl/soulseek/" "/home/$name/dox/" "/home/$name/games/" "/home/$name/mu/" "/home/$name/pix/wallpapers/" "/home/$name/vids/movies/" "/home/$name/vids/anime/"
+
 # Write urls for newsboat if it doesn't already exist
 [ -s "/home/$name/.config/newsboat/urls" ] ||
 	sudo -u "$name" echo "$rssurls" > "/home/$name/.config/newsboat/urls"
